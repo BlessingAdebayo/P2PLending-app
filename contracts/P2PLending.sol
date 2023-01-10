@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 import "./LoanRequest.sol";
 import "./LoanOffer.sol";
@@ -16,6 +17,9 @@ contract P2PLending {
     uint256 repaidAmount;
     uint256 repaymentCount;
     bool isPrepaymentApproved;
+    address payer;
+    uint256 prepaymentAmount;
+    uint256 timestamp;
   }
 
   mapping(uint256 => Loan) public loans;

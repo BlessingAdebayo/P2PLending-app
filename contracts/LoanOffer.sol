@@ -62,7 +62,7 @@ contract LoanOffer {
     loanOffers[_id].repaymentReceived = true;
   }
 
-  }
+  
 
   function requestPrepayment(uint256 _id) public {
     // Check that the loan offer with the given ID exists
