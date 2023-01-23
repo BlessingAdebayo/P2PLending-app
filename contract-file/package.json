@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "name": "finocial.eth",
+  "version": "1.0.0",
+  "description": "Digital lending over ETH",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upscaletech/finocial.eth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upscaletech/finocial.eth/issues"
+  },
+  "homepage": "https://github.com/upscaletech/finocial.eth#readme",
+  "dependencies": {
+    "make-license": "^0.5.1",
+    "openzeppelin-solidity": "^2.3.0",
+    "sha3": "^2.1.4",
+    "solidity-coverage": "^0.6.4",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
