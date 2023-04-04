@@ -84,7 +84,7 @@
     "url-loader": "1.1.2",
     "web3": "^1.2.1",
     "web3-utils": "^1.2.1",
-    "webpack": "4.29.6",
+    "webpack": "4.46.0",
     "webpack-bundle-analyzer": ">=3.3.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "3.2.1",
