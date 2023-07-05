@@ -7,7 +7,7 @@
     "node": "16.13.1"
   },
   "dependencies": {
-    "@babel/core": "7.4.3",
+    "@babel/core": "7.22.6",
     "@svgr/webpack": "4.1.0",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
@@ -21,7 +21,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-react-app": "^9.0.0",
+    "babel-preset-react-app": "^10.0.1",
     "babel-preset-stage-2": "^6.24.1",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
